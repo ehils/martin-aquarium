@@ -44,5 +44,6 @@ img {
     list-style-type: none;
 }
 ul {
-    /* padding-left: 0px; */
+    padding-left: 0px; /* removes space of missing bullet points */
+    list-style-type: none; /* removes bullet points */
 }
