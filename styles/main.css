@@ -10,10 +10,39 @@ h1 {
 .fish {
     border: groove black;
     flex: 5;
+    box-sizing: border-box;
 }
 .travel {
-    border: groove black
+    border: groove black;
 }
 .martinTips {
-    border: groove black
+    border: groove black;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.fishList{
+    float: clear;
+    column-count: 2;
+}
+img {
+    height: 250px;
+    object-fit: contain;
+    padding-left: 2em;
+}
+.fishFacts {
+    border: dotted black;
+    padding-right: 2em;
+    width: 100px;
+}
+.quotes {
+    text-align: center;
+    padding: auto;
+    list-style-type: none;
+}
+ul {
+    /* padding-left: 0px; */
 }
