@@ -1,6 +1,7 @@
 const database = {
     fish: [
         {
+            image: "/images/tropical fish.jpeg",
             name: "Kevin",
             species: "Puffer Fish",
             length: 25,
@@ -8,6 +9,7 @@ const database = {
             diet: "coral"
         },
         {
+            image: "/images/tropical fish.jpeg",
             name: "Kyle",
             species: "popper fish",
             length: 13,
@@ -15,6 +17,7 @@ const database = {
             diet: "sand"
         },
         {
+            image: "/images/tropical fish.jpeg",
             name: "Lloyd",
             species: "clown fish",
             length: 4,
@@ -22,6 +25,7 @@ const database = {
             diet: "coral"
         },
         {
+            image: "/images/tropical fish.jpeg",
             name: "cynthia",
             species: "StarFish",
             length: 15,
@@ -29,11 +33,12 @@ const database = {
             diet: "bacteria"
         },
         {
+            image: "/images/tropical fish.jpeg",
             name: "Toad",
             species: "frog fish",
             length: 7,
-            origin: "ponds",
-            diet: "mud"
+            location: "ponds",
+            food: "mud"
         }
     ]
 }
