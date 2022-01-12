@@ -1,22 +1,32 @@
+body {
+    background-color: #1DACE8;
+    border-color:#9A872D;
+    font-family: 'Varela Round', sans-serif;
+}
 .wholeAquarium {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space evenly;
+    
 }
 h1 {
     text-align: center;
     margin-bottom: 1em;
 }
 .fish {
-    border: groove black;
-    flex: 5;
-    box-sizing: border-box;
+    flex: 3;
+    /* box-sizing: border-box; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .travel {
-    border: groove black;
+    flex: 2;
+    margin: 10px;
 }
 .martinTips {
-    border: groove black;
+    margin: 10px;
+    flex: 1;
 }
 h2 {
     text-align: center;
@@ -24,26 +34,75 @@ h2 {
 h3 {
     text-align: center;
 }
+h4 {
+    text-align: left;
+}
 .fishList{
-    float: clear;
-    column-count: 2;
+    display: flex;
+    margin: 10px;
+    border: inset;
+    padding: 10px;
 }
 img {
+    flex: 2;
     height: 250px;
-    object-fit: contain;
-    padding-left: 2em;
+    object-fit: cover;
+    border: inset;
+    margin: 5px;
 }
 .fishFacts {
-    border: dotted black;
-    padding-right: 2em;
+    flex: 1;
+    text-align: justify;
     width: 100px;
+    padding-left: 40px;
+    margin-left: 10px;
 }
-.quotes {
+.travelTips {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: auto; */
+    /* list-style-type: none;  */
+    border: inset;
+    /* margin: 10px;  */
+}
+.travelDestinations {
+    flex: 1;
     text-align: center;
     padding: auto;
     list-style-type: none;
+    margin: 10px;
+    border: inset;
+    /* display: inline-block;
+    padding-left: 0;
+    text-align: left; */
 }
-ul {
-    padding-left: 0px; /* removes space of missing bullet points */
-    list-style-type: none; /* removes bullet points */
+.placesVisited {
+    list-style-type: none;
+    /* display: inline-block;
+    padding-left: 0;
+    text-align: left;
+    margin: 10px; */
+}
+.quotes {
+    text-align: center;
+    list-style-type: none;
+}
+.martinsTips {
+    padding: 10px;
+}
+.tankTips {
+    border: inset;
+}
+*{
+    border-radius: 20px;
+    border-top: #1c366B;
+    border-left: #1c366B;
+    border-bottom:skyblue;
+    border-right:skyblue;
+    color: #1C366B;
+}
+.tankTips {
+    text-align: center;
 }
