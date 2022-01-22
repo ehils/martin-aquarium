@@ -12,7 +12,7 @@ const database = {
             image: "/images/tropical fish.jpeg",
             name: "Kyle",
             species: "popper fish",
-            length: 13,
+            length: 12,
             origin: "Israel",
             diet: "sand"
         },
@@ -45,4 +45,39 @@ const database = {
 
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
+}
+
+export const mostHolyFish = (fishobject) => {
+    // 3, 6, 9, 12, etc... fish
+    let holyFish = []
+
+    for (const fish of fish) {
+        if (fish.length % 3 === 0) {
+        holyFish.push(fish) 
+        }
+    }
+    return holyFish
+}
+
+
+export const soldierFish = (fishObject) => {
+    // 5, 10, 15, 20, 25, etc... fish
+    let soldiers = []
+    for (const fish of fishes) {
+        if (fish.length % 5 === 0) {
+            soldiers.push(fish)
+        }
+    }
+    return soldiers
+}
+
+export const nonHolyFish = (fishObject) => {
+    // Any fish not a multiple of 3 or 5
+    let regularFish = []
+    for (const fish of object) {
+        if (fish.length % 5 !== 0 && fish.length % 3 !== 0){
+            regularFish.push(fish)
+    }
+    }
+    return regularFish
 }
