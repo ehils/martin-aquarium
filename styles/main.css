@@ -13,7 +13,7 @@ h1 {
     text-align: center;
     margin-bottom: 1em;
 }
-.fish {
+.fishListContainer {
     flex: 3;
     /* box-sizing: border-box; */
     margin: 10px;

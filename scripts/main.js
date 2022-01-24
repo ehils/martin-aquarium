@@ -1,10 +1,10 @@
-import { getFish } from './database.js'
+// import { getFish } from './database.js'
 
-const allFish = getFish()
+// const allFish = getFish()
 
-for (const fish of allFish) {
-    console.log(fish)
-}
+// for (const fish of allFish) {
+//     console.log(fish)
+// }
 
 import { FishList } from './FishList.js'
 
